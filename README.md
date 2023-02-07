@@ -1,7 +1,8 @@
 # Expo-starter 
 Start FAST with Expo + Supabase + NativeBase + Zustand.
 
-##Features
+## Features
+
 - Expo SDK `47`
 - [Supabase](https://github.com/supabase/supabase) 
 - [Zustand](https://github.com/pmndrs/zustand)
@@ -11,13 +12,20 @@ Start FAST with Expo + Supabase + NativeBase + Zustand.
 
 ## Installation
 
-1. Create a new project using the firebase starter template.
+1. Clone this project
 
 ```bash
-npx create-react-native-app --template https://github.com/linus1703/expo-starter
+git clone https://github.com/linus1703/expo-starter
+```
+2. Change into the directory and install the dependencies
+
+```bash
+cd expo-starter
+
+yarn install
 ```
 
-2. Update `/app/config/config.base.ts` with your own configuration, e.g.:
+3. Update `/app/config/config.base.ts` with your own configuration, e.g.:
 
 ```shell
 # Replace XXXX's with your own Supabase keys
@@ -27,7 +35,7 @@ SUPABASE_ANON_KEY: "XXXX",
 
 4. Start the project:
 
-- `yarn start` -- start expo
+- `yarn start`
 
 ## File Structure
 
